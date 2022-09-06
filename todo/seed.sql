@@ -1,0 +1,10 @@
+INSERT INTO todo (name, date, goal) VALUES ('Meka', 012021, "wash car");
+INSERT INTO todo (name, date, goal) VALUES ('Meka', 022222, "take out trash");
+INSERT INTO todo (name, date, goal) VALUES ('Meka', 092322, "remember to buy kids costumes");
+INSERT INTO todo (name, date, goal) VALUES ('Meka', 032322, "playdate on sunday");
+INSERT INTO todo (name, date, goal) VALUES ('Meka',032422 , "cancel playdate due to sick child");
+INSERT INTO todo (name, date, goal) VALUES ('Meka', 082422, "3 year old dental appt");
+INSERT INTO todo (name, date, goal) VALUES ('Meka', 062122, "my dental appt");
+INSERT INTO todo (name, date, goal) VALUES ('Meka', 090222, "1year first hair cut");
+INSERT INTO todo (name, date, goal) VALUES ('Meka', 090322, "cancel first hair cut");
+INSERT INTO todo (name, date, goal) VALUES ('Meka', 090622, "Grocery shoppin/make a shppoing list");

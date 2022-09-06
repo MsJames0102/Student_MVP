@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS todo_list_dev;
+
+CREATE DATABASE todo_list_dev;
+
+DROP TABLE IF EXISTS todo;
+
+CREATE TABLE todo(
+ name TEXT,
+ date TIMESTAMP WITH TIME ZONE,
+ goal TEXT
+);
