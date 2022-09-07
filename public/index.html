@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>ToDolist</title>
 </head>
+
 <body>
-    <h1>This is test from public folder</h1>
+    <header>
+        <h1>Mommy's to do list!</h1>
+        <div class="Form_container">
+            
+
+            </div>
+            <h2>Daily To Do list</h2>
+
+            <form id="Add-new-task">
+                <input type="date" name="time" class="getdate" id="date" placeholder="yyyy-mm-dd" >
+                <input type="name" name="name" class="name" id="name" placeholder="Enter name">
+                <input type="text" name="goals" class="box" id="Add-task" placeholder="What's new?" />
+                <input type="submit" name="goals" class="btn" id="new-task-submit" value="add task" />
+                <div class="Daily Goal">
+                </div>
+                <div id="Todo">
+                    <div class="ToDolist">
+                        <div class="content">
+                            <input type="text" class="box" value="What's to do?" />
+                        </div>
+                        <div class="action">
+                            <button type="button" class="btn" id="edit">Edit</button>
+                            <button type="button" class="btn"id="delete">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </header>
+
     <script src="public.js"></script>
 </body>
+
 </html>
